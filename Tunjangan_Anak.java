@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Soal2{
+public class Tunjangan_Anak{
     public static void main(String[] args) {
         Scanner scan = new Scanner  (System.in);
         int Gaji_Pokok,Jumlah_Anak;

@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class Soal5{
+public class Lama_Bekerja{
     public static void main(String[] args) {
         Scanner scan = new Scanner  (System.in);
-        int Masuk,Keluar,Lama,Biaya;
+        int Masuk,Keluar,Lama;
 
-        System.out.println("Biaya Parkir");
+        System.out.println("Lama Bekerja");
 
         Masuk = scan.nextInt();
         System.out.println("Masukan Jumlah Masuk :    "+Masuk);
@@ -20,14 +20,7 @@ public class Soal5{
         }else{
             Lama = (12 - Masuk) + Keluar;
         }
-
-        if(Lama > 2){
-           Biaya = 2000 + (Lama - 2) * 500;
-        }else{
-            Biaya = 2000;
-        }
         System.out.println("Lama =    "+Lama);
-        System.out.println("Biaya =    "+Biaya);
         scan.close();
     }
 }

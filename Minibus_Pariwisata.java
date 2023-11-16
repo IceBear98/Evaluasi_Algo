@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Soal3{
+public class Minibus_Pariwisata{
     public static void main(String[] args) {
         Scanner scan = new Scanner  (System.in);
         int Peserta,Minibus;

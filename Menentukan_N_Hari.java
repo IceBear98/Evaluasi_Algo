@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class nama_Hari{
+public class Menentukan_N_Hari{
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int Nhari,Belakang;
